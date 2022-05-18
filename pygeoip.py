@@ -2,9 +2,10 @@ import os
 import socket
 import platform
 import sys
-import urllib2
+import urllib
+import urllib.request
 import json
-from urllib2 import urlopen
+from urllib.request import urlopen
 
 url = 'http://ipinfo.io/json'
 response = urlopen(url)
